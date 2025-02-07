@@ -7,10 +7,10 @@ Scripts for processing mp3 files including id3 tags.
 cdda_TO_mp3.plx [working-dir [output-file-prefix [first [last]]]]
 ``` 
      where:
-.        working-dir            working directory for *.ogg, *.mp3
-.        output-file-prefix     prefix-tt.ogg and prefix-tt.mp3 files are created
-.        first                  first track to process
-.        last                   last track to process
+-        working-dir            working directory for *.ogg, *.mp3
+-        output-file-prefix     prefix-tt.ogg and prefix-tt.mp3 files are created
+-        first                  first track to process
+-        last                   last track to process
 
 > rip cdda audio tracks,
 > encode each track into ogg wrapped flac file,
