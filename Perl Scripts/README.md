@@ -51,3 +51,17 @@ Miscellaneous scripts for processing mp3 files including id3 tags.
 > normalize the pcm data and
 > encode file into an mp3 audio file
 
+ Useage: sparsecopy.plx [source-dir [target-dir [ext ]]]]
+ 
+     where:
+        -s, --source       source-dir            source directory
+        -t, --target       target-dir            target directory
+        -e, --ext          ext                   extension of files to copy
+        -f, --force        overwrite all existing targets
+        -u, --update       update old target with newer source file
+        -i, --interactive  prompt whether to overwrite target file
+        -v, --verbose      verbose execution
+        -h, --help
+          
+> create target directory tree
+> copy files with extension ext into target directory tree
