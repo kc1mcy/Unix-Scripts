@@ -1,2 +1,2 @@
 # Perl Scripts
-Miscellanious scripts for processing mp3 files.
+Miscellaneous scripts for processing mp3 files including id3 tags.
