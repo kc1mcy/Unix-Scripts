@@ -3,7 +3,7 @@ Miscellaneous unix scripts.
 ## Perl Scripts
 Scripts for processing mp3 files including id3 tags.
 
-```sh
+```
 cdda_TO_mp3.plx [working-dir [output-file-prefix [first [last]]]]
 ``` 
      where:
