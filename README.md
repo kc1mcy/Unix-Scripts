@@ -1,2 +1,2 @@
 # Scripts
-Miscellaneous scripts.
+Miscellaneous unix scripts.
