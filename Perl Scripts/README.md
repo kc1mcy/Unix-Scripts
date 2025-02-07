@@ -9,6 +9,10 @@ Miscellaneous scripts for processing mp3 files including id3 tags.
         first                  first track to process
         last                   last track to process
 
+> rip cdda audio tracks,
+> encode each track into ogg wrapped flac file,
+> normalize the pcm data and
+> encode track into an mp3 audio file
  
  Useage: csv2txt.plx [output-file-prefix [working-dir ]]
  
