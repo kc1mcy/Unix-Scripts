@@ -1,9 +1,9 @@
 # Scripts
 Miscellaneous unix scripts.
 ## Perl Scripts
-Miscellaneous scripts for processing mp3 files including id3 tags.
+Scripts for processing mp3 files including id3 tags.
 
- Useage: cdda_TO_mp3.plx [working-dir [output-file-prefix [first [last]]]]
+. Useage: cdda_TO_mp3.plx [working-dir [output-file-prefix [first [last]]]]
  
      where:
         working-dir            working directory for *.ogg, *.mp3
@@ -16,13 +16,13 @@ Miscellaneous scripts for processing mp3 files including id3 tags.
 > normalize the pcm data and
 > encode track into an mp3 audio file
  
- Useage: csv2txt.plx [output-file-prefix [working-dir ]]
+. Useage: csv2txt.plx [output-file-prefix [working-dir ]]
  
 >generate 1 text file per record
 >from a comma separated values database file
 
 
- Useage: MP3_TO_DISCnn.plx -m min -i in-dir -o out-dir
+. Useage: MP3_TO_DISCnn.plx -m min -i in-dir -o out-dir
   
      where:
         -m, --min         number of minutes to split input-files into
@@ -42,7 +42,7 @@ Miscellaneous scripts for processing mp3 files including id3 tags.
  >create and move to directories discnn/nn-01.mp3, discnn/nn-02.mp3, ...
 
  
- Useage: sndtrk.plx working-dir
+. Useage: sndtrk.plx working-dir
  
      where:
         -e, --ext         input-ext          video file extension
@@ -57,7 +57,7 @@ Miscellaneous scripts for processing mp3 files including id3 tags.
 > normalize the pcm data and
 > encode file into an mp3 audio file
 
- Useage: sparsecopy.plx [source-dir [target-dir [ext ]]]]
+. Useage: sparsecopy.plx [source-dir [target-dir [ext ]]]]
  
      where:
         -s, --source       source-dir            source directory
@@ -72,12 +72,12 @@ Miscellaneous scripts for processing mp3 files including id3 tags.
 > create target directory tree
 > copy files with extension ext into target directory tree
 
- Useage: txt2id3.plx infile [output-file-prefix [disc number]]
+. Useage: txt2id3.plx infile [output-file-prefix [disc number]]
 
 > generate 1 text file per record
 > from a comma separated values database file
 
- Useage: wav_TO_mp3.plx working-dir
+. Useage: wav_TO_mp3.plx working-dir
  
      where:
         working-dir            working directory for *.ogg, *.mp3
