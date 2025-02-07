@@ -31,8 +31,8 @@ Miscellaneous scripts for processing mp3 files including id3 tags.
         -h, --help
 
      where:
-        input-file             mp3 input file
-        working-dir            working directory for *.mp3
+        in-dir             mp3 input file
+        out-dir            working directory for *.mp3
           
 
  >processes a directory of *.mp3 audio files, spliting each large mp3 file into min size files and moves them to dirnn
