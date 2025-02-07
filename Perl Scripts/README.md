@@ -75,7 +75,14 @@ Miscellaneous scripts for processing mp3 files including id3 tags.
 > generate 1 text file per record
 > from a comma separated values database file
 
-
+ Useage: wav_TO_mp3.plx working-dir
+ 
+     where:
+        working-dir            working directory for *.ogg, *.mp3
+          
+> encode each file into ogg wrapped flac file,
+> normalize the pcm data and
+> encode file into an mp3 audio file
 
 
 
