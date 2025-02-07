@@ -1,2 +1,2 @@
 # Perl Scripts
-Processing mp3 files
+Miscellanious scripts for processing mp3 files.
