@@ -21,7 +21,7 @@ Scripts for processing mp3 files including id3 tags.
 >from a comma separated values database file
 
 
-### MP3_TO_DISCnn.plx -m min -i in-dir -o out-dir
+### _MP3_TO_DISCnn.plx_ -m min -i in-dir -o out-dir
   
      where:
         -m, --min         number of minutes to split input-files into
@@ -30,8 +30,6 @@ Scripts for processing mp3 files including id3 tags.
         -n, --normalize   normalize the amplitude of each mp3 file
         -v, --verbose     verbose excution
         -h, --help
-
-     where:
         in-dir             mp3 input file
         out-dir            working directory for *.mp3
  >processes a directory of *.mp3 audio files, spliting each large mp3 file into min size files and moves them to dirnn
