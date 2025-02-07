@@ -3,7 +3,7 @@ Miscellaneous unix scripts.
 ## Perl Scripts
 Scripts for processing mp3 files including id3 tags.
 
-### _Useage:_ cdda_TO_mp3.plx [working-dir [output-file-prefix [first [last]]]] 
+### cdda_TO_mp3.plx [working-dir [output-file-prefix [first [last]]]] 
 
      where:
         working-dir            working directory for *.ogg, *.mp3
@@ -15,13 +15,13 @@ Scripts for processing mp3 files including id3 tags.
 > normalize the pcm data and
 > encode track into an mp3 audio file
  
-### _Useage:_ csv2txt.plx [output-file-prefix [working-dir ]]
+### csv2txt.plx [output-file-prefix [working-dir ]]
  
 >generate 1 text file per record
 >from a comma separated values database file
 
 
-### _Useage:_ MP3_TO_DISCnn.plx -m min -i in-dir -o out-dir
+### MP3_TO_DISCnn.plx -m min -i in-dir -o out-dir
   
      where:
         -m, --min         number of minutes to split input-files into
@@ -38,8 +38,7 @@ Scripts for processing mp3 files including id3 tags.
  >rename to nn-01.mp3, nn-02.mp3, ...
  >create and move to directories discnn/nn-01.mp3, discnn/nn-02.mp3, ...
 
- 
-Useage: sndtrk.plx working-dir
+### sndtrk.plx working-dir
  
      where:
         -e, --ext         input-ext          video file extension
@@ -52,7 +51,7 @@ Useage: sndtrk.plx working-dir
 > normalize the pcm data and
 > encode file into an mp3 audio file
 
-Useage: sparsecopy.plx [source-dir [target-dir [ext ]]]]
+### sparsecopy.plx [source-dir [target-dir [ext ]]]]
  
      where:
         -s, --source       source-dir            source directory
@@ -66,11 +65,11 @@ Useage: sparsecopy.plx [source-dir [target-dir [ext ]]]]
 > create target directory tree
 > copy files with extension ext into target directory tree
 
-Useage: txt2id3.plx infile [output-file-prefix [disc number]]
+### txt2id3.plx infile [output-file-prefix [disc number]]
 > generate 1 text file per record
 > from a comma separated values database file
 
-Useage: wav_TO_mp3.plx working-dir
+### wav_TO_mp3.plx working-dir
  
      where:
         working-dir            working directory for *.ogg, *.mp3          
