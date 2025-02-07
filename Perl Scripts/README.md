@@ -69,3 +69,13 @@ Miscellaneous scripts for processing mp3 files including id3 tags.
           
 > create target directory tree
 > copy files with extension ext into target directory tree
+
+ Useage: txt2id3.plx infile [output-file-prefix [disc number]]
+
+> generate 1 text file per record
+> from a comma separated values database file
+
+
+
+
+
