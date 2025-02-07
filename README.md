@@ -3,7 +3,8 @@ Miscellaneous unix scripts.
 ## Perl Scripts
 Scripts for processing mp3 files including id3 tags.
 
-_Useage:_ cdda_TO_mp3.plx [working-dir [output-file-prefix [first [last]]]] 
+###_Useage:_ cdda_TO_mp3.plx [working-dir [output-file-prefix [first [last]]]] 
+
      where:
         working-dir            working directory for *.ogg, *.mp3
         output-file-prefix     prefix-tt.ogg and prefix-tt.mp3 files are created
@@ -14,7 +15,7 @@ _Useage:_ cdda_TO_mp3.plx [working-dir [output-file-prefix [first [last]]]]
 > normalize the pcm data and
 > encode track into an mp3 audio file
  
-_Useage:_ csv2txt.plx [output-file-prefix [working-dir ]]
+###_Useage:_ csv2txt.plx [output-file-prefix [working-dir ]]
  
 >generate 1 text file per record
 >from a comma separated values database file
